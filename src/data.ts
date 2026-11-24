@@ -11,7 +11,7 @@ export const serviceSeed = [
   ['Video Editing', 'Social, event and commercial video editing.', 'Video'],
   ['Web Development', 'Modern responsive website development.', 'Technology'],
   ['Digital Marketing', 'Strategy, social growth and campaign support.', 'Marketing']
-];
+] as const;
 
 export const marketplaceSeed = [
   { id: 'market-1', title: 'Professional Camera Kit', category: 'Photography', price: 'Contact for price', image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=900&auto=format&fit=crop', seller: 'ShanDi Store', description: 'Camera equipment and accessories available for enquiry.' },
